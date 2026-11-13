@@ -14,4 +14,4 @@ json_response = response.json()
 temperature = json_response["current_weather"]["temperature"]
 time = json_response["current_weather"]["time"]
 
-print(f"Time2: {time}; Temperature1: {temperature}")
+print(f"Time: {time}; Temperature: {temperature}")
